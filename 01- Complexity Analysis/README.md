@@ -2,7 +2,7 @@
 
 This repository provides a collection of examples and explanations to understand and analyze the complexity of algorithms. Complexity analysis is a crucial aspect of algorithm design as it helps in evaluating the efficiency and scalability of algorithms.
 
-### Table of Contents
+## Table of Contents
 
 • Introduction to Complexity Analysis
 
