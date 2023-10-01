@@ -18,13 +18,13 @@ This repository provides a collection of examples and explanations to understand
 
 • Analyzing Algorithms
 
-### Introduction to Complexity Analysis
+## Introduction to Complexity Analysis
 
 In this section, you will find an introduction to complexity analysis and its importance in algorithm design. 
 
 It explains why understanding the efficiency and scalability of algorithms is crucial for writing optimized code.
 
-### Big O Notation
+## Big O Notation
 
 This section provides an in-depth explanation of Big O notation, 
 
