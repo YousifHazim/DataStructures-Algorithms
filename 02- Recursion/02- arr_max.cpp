@@ -14,7 +14,7 @@ int main() {
 
     int arr[] = { 1 , 8 ,2 ,10 , 3};
 
-    cout<<arr_max(arr , 4)<<endl;
+    cout<<arr_max(arr , 5)<<endl;
 
     return 0;
 }
