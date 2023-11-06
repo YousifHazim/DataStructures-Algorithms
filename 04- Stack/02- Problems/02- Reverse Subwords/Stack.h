@@ -2,20 +2,21 @@
 #define DATASTRUCTURE_ALOGRITHM_STACK_H
 
 #include <iostream>
-#include <string>
 #include <cassert>
 using namespace std;
+
+typedef char type;
 
 class Stack {
 
 private:
     int size{ };
     int top { };
-    int* array { };
+    type *array { };
 
 public:
     Stack(int size): size(size) , top(-1) {
-        array = new int[size];
+        array = new type[size];
     }
 
     ~Stack(){
@@ -50,24 +51,6 @@ public:
         return top == -1;
     }
 
-
-    string reverse_subwords(string line)
-    {
-        string result;
-        line += ' ';
-        Stack stk(line.size());
-        for (int i = 0; i < (int)line.size(); ++i) {
-            if(line[i] == ' ')
-            {
-                while(!stk.isEmpty())
-                    result += stk.pop();
-                result += ' ';
-            }else
-                stk.push(line[i]);
-        }
-        return result;
-    }
-
     void display()
     {
         for (int i = top; i >= 0 ; i--) {
@@ -76,6 +59,5 @@ public:
         cout<<endl;
     }
 };
-
 
 #endif //DATASTRUCTURE_ALOGRITHM_STACK_H
